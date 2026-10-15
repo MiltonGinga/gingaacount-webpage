@@ -1,0 +1,159 @@
+{
+  "_leia-me": "Ficheiro de conteúdo do site. Para publicar um novo sistema basta acrescentar um objecto em 'systems' (status: producao | desenvolvimento | pessoal), fazer commit na branch main e o Render publica sozinho.",
+  "company": {
+    "name": "GingaAcount",
+    "slogan": "Sistemas, APIs e dados feitos à medida do seu negócio.",
+    "city": "Luanda, Angola",
+    "phone": "+244 952 737 074",
+    "whatsapp": "244952737074",
+    "email": "gingaacount@gmail.com",
+    "founded": 2026
+  },
+  "founder": {
+    "name": "Milton Domingos António Ginga",
+    "role": "Fundador · Engenheiro Informático",
+    "summary": "Programador backend e analista de dados. Desenho APIs seguras, sistemas de gestão completos e painéis de análise que transformam dados em decisões.",
+    "skills": [
+      { "name": "Spring Boot", "level": 92, "color": "green" },
+      { "name": "NestJS", "level": 86, "color": "red" },
+      { "name": "React", "level": 88, "color": "blue" },
+      { "name": "MySQL / PostgreSQL", "level": 90, "color": "blue" },
+      { "name": "Apache Superset", "level": 84, "color": "green" },
+      { "name": "Redes e segurança", "level": 80, "color": "red" }
+    ],
+    "certifications": [
+      { "title": "CCNA 1 — Introduction to Networks", "issuer": "Cisco Networking Academy", "icon": "network" },
+      { "title": "CCNA 2 — Switching, Routing & Wireless", "issuer": "Cisco Networking Academy", "icon": "router" },
+      { "title": "Network Security", "issuer": "Cisco Networking Academy", "icon": "shield" },
+      { "title": "JavaScript Essentials", "issuer": "Cisco Networking Academy", "icon": "code" }
+    ]
+  },
+  "stats": [
+    { "value": 4, "suffix": "", "label": "Sistemas em produção" },
+    { "value": 2, "suffix": "", "label": "Sistemas em construção" },
+    { "value": 6, "suffix": "+", "label": "Sectores servidos" },
+    { "value": 24, "suffix": "/7", "label": "Disponível na nuvem" }
+  ],
+  "services": [
+    { "icon": "plug", "color": "blue", "title": "APIs e integrações", "text": "APIs REST seguras (JWT, permissões por tarefa, auditoria) e integração com pagamentos, e-mail, WhatsApp e outros sistemas." },
+    { "icon": "layout", "color": "green", "title": "Sistemas de gestão", "text": "Aplicações web completas e responsivas: vendas, estoque, RH, clínicas, escolas, farmácias e centros de formação." },
+    { "icon": "chart", "color": "red", "title": "Análise de dados e BI", "text": "Painéis no Apache Superset, relatórios periódicos e indicadores em tempo real para decidir com base em factos." },
+    { "icon": "database", "color": "blue", "title": "Bases de dados", "text": "Modelação, migração e optimização em MySQL e PostgreSQL, com cópias de segurança e boas práticas de desempenho." },
+    { "icon": "shield", "color": "green", "title": "Redes e segurança", "text": "Configuração de redes, controlo de acessos e revisão de segurança com base nas formações CCNA e Network Security." },
+    { "icon": "cloud", "color": "red", "title": "Alojamento e manutenção", "text": "Publicação na nuvem, domínios, monitorização, actualizações e suporte contínuo depois da entrega." }
+  ],
+  "systems": [
+    {
+      "id": "gingamarket",
+      "name": "GingaMarket",
+      "sector": "Comércio público",
+      "status": "producao",
+      "color": "#F97316",
+      "logo": "/logos/gingamarket.svg",
+      "image": "/images/market.jpg",
+      "url": "https://gingamarket.onrender.com/",
+      "tagline": "Encontre o que precisa no mercado mais perto de si.",
+      "description": "Plataforma pública que mostra onde existe cada produto, a que preço e a que distância — em mercados formais e informais, lojas e farmácias de Angola.",
+      "features": ["Pesquisa por produto com mapa (OpenStreetMap)", "Encomendas para levantar ou entrega em casa", "Painéis para bancadas, mercados e plataforma", "Leitura de códigos de barras pela câmara", "Promoções, anúncios e notícias", "Tema claro/escuro e tempo real (STOMP)"],
+      "stack": ["React 19", "Vite", "Leaflet", "Spring Boot", "MySQL"]
+    },
+    {
+      "id": "gingaclinic",
+      "name": "GingaClinic",
+      "sector": "Saúde",
+      "status": "producao",
+      "color": "#16A34A",
+      "logo": "/logos/gingaclinic.svg",
+      "image": "/images/clinic.jpg",
+      "url": "https://gingaclinic.onrender.com/",
+      "tagline": "Gestão clínica e hospitalar para Angola.",
+      "description": "Consultas, urgência com triagem de Manchester, internamentos, laboratório, farmácia interna, ambulâncias e portal do paciente — num só sistema.",
+      "features": ["Triagem de Manchester por prioridade", "Internamentos e gestão de camas", "Exames com validação", "Portal do paciente (consultas, receitas, PDFs)", "Notificações em tempo real", "4 temas visuais e permissões por tarefa"],
+      "stack": ["React 19", "TypeScript", "Spring Boot", "WebSocket", "MySQL"]
+    },
+    {
+      "id": "gingaheleade",
+      "name": "Ginga Heleade",
+      "sector": "Educação",
+      "status": "producao",
+      "color": "#2563EB",
+      "logo": "/logos/gingaheleade.svg",
+      "image": "/images/school.jpg",
+      "url": "https://heleade.onrender.com/",
+      "tagline": "Gestão académica e portal institucional.",
+      "description": "Gestão escolar com cursos, avaliações, candidaturas, estágios, bolsas, recursos humanos e recibos, seguindo programas de ensino de Angola, Brasil e Portugal.",
+      "features": ["Instituições, cursos e unidades curriculares", "Métodos e tipos de avaliação", "Candidaturas, estágios e bolsas", "RH: férias, faltas e recibos", "Notificações e comunicação interna", "Painel com métricas em tempo real"],
+      "stack": ["Next.js 15", "React 19", "Tailwind", "Spring Boot", "MySQL"]
+    },
+    {
+      "id": "gingasales",
+      "name": "GingaSales",
+      "sector": "Retalho e RH",
+      "status": "producao",
+      "color": "#F26B1D",
+      "logo": "/logos/gingasales.svg",
+      "image": "/images/sales.jpg",
+      "url": "https://gingasales.onrender.com/",
+      "tagline": "Vendas, estoque e recursos humanos num só lugar.",
+      "description": "Balcão com pré-vendas em tempo real, venda no terreno, requisições, compras, estoque por loja, RH com folha salarial, relatórios e SAF-T.",
+      "features": ["Balcão com pagamentos divididos e talão 80 mm", "Pré-venda no telemóvel e venda no terreno", "Estoque físico/reservado, validades e inventário", "Compras locais e importação", "RH, folha e bónus", "Relatórios em 7 periodicidades e SAF-T"],
+      "stack": ["React 18", "Tailwind 4", "TanStack Query", "Spring Boot", "MySQL"]
+    },
+    {
+      "id": "gingafarma",
+      "name": "GingaFarma",
+      "sector": "Farmácias",
+      "status": "desenvolvimento",
+      "color": "#059669",
+      "logo": "/logos/gingafarma.svg",
+      "image": "/images/pharmacy.jpg",
+      "url": "",
+      "tagline": "Gestão completa de farmácias.",
+      "description": "Da venda ao balcão ao controlo e movimentação de estoque, com lotes, validades, dosagens e alertas — pensado para farmácias angolanas.",
+      "features": ["Vendas ao balcão e facturação", "Estoque por lote e validade", "Movimentações e transferências", "Dosagens e posologia", "Alertas de ruptura e de validade", "Relatórios de vendas e margens"],
+      "stack": ["React", "Spring Boot", "MySQL"]
+    },
+    {
+      "id": "gingatraining",
+      "name": "GingaTraining",
+      "sector": "Formação",
+      "status": "desenvolvimento",
+      "color": "#4F46E5",
+      "logo": "/logos/gingatraining.svg",
+      "image": "/images/training.jpg",
+      "url": "",
+      "tagline": "Gestão de centros de formação e capacitação.",
+      "description": "Cursos, turmas, formandos, inscrições, desempenho e emissão de certificados para centros de formação, capacitação e treinamento.",
+      "features": ["Cursos, módulos e turmas", "Inscrições e pagamentos", "Presenças e desempenho", "Emissão de certificados", "Gestão de formadores", "Relatórios por curso e período"],
+      "stack": ["React", "NestJS", "MySQL"]
+    },
+    {
+      "id": "ministerioapp",
+      "name": "Agenda Ministério",
+      "sector": "Agenda pessoal",
+      "status": "pessoal",
+      "color": "#0284C7",
+      "logo": "/logos/ministerioapp.svg",
+      "image": "/images/collab.jpg",
+      "url": "",
+      "tagline": "Agenda móvel com lembretes automáticos.",
+      "description": "Aplicação Android para organizar pessoas, revisitas, estudos e compromissos, com calendário e lembretes 1 dia e 1 hora antes.",
+      "features": ["Cadastro de pessoas e revisitas", "Calendário e agenda pessoal", "Lembretes automáticos", "Funciona sem internet"],
+      "stack": ["React Native", "Expo", "SQLite"]
+    }
+  ],
+  "process": [
+    { "title": "Conversa inicial", "text": "Percebemos o seu negócio, o problema e os objectivos." },
+    { "title": "Proposta e orçamento", "text": "Âmbito, prazos e custos claros, sem surpresas." },
+    { "title": "Desenvolvimento", "text": "Entregas curtas que pode ver e testar a cada semana." },
+    { "title": "Publicação", "text": "O sistema vai para a nuvem com domínio e segurança." },
+    { "title": "Suporte", "text": "Formação da equipa, manutenção e evolução contínua." }
+  ],
+  "faq": [
+    { "q": "Que tipo de sistemas a GingaAcount desenvolve?", "a": "APIs, sistemas web de gestão (vendas, estoque, RH, saúde, educação, farmácias, formação) e painéis de análise de dados — sempre à medida do cliente." },
+    { "q": "Posso testar um sistema antes de contratar?", "a": "Sim. Os sistemas em produção têm modo de demonstração. Peça um acesso pelo formulário ou pelo WhatsApp." },
+    { "q": "Os meus dados ficam seguros?", "a": "Usamos autenticação com tokens, permissões por tarefa, registo de auditoria, HTTPS e cópias de segurança." },
+    { "q": "Quanto tempo demora um projecto?", "a": "Depende do âmbito. Uma API ou um painel simples leva poucas semanas; um sistema de gestão completo, alguns meses, com entregas parciais." },
+    { "q": "Fazem manutenção depois da entrega?", "a": "Sim. Oferecemos planos de suporte, actualizações e alojamento na nuvem." }
+  ]
+}

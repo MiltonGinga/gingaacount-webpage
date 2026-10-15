@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GingaTraining">
+  <defs><linearGradient id="t" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366F1"/><stop offset="1" stop-color="#1E3A8A"/></linearGradient></defs>
+  <rect width="64" height="64" rx="16" fill="url(#t)"/>
+  <path d="M10 26 32 16l22 10-22 10z" fill="#fff"/>
+  <path d="M19 31v9c7 5 19 5 26 0v-9l-13 6z" fill="#C7D2FE"/>
+  <path d="M50 28v11" stroke="#F43F5E" stroke-width="3" stroke-linecap="round"/><circle cx="50" cy="42" r="3.2" fill="#F43F5E"/>
+  <path d="M24 49l4 4 8-8" fill="none" stroke="#22C55E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

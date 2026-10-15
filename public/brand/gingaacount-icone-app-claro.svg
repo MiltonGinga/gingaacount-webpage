@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GingaAcount"><defs>
+    <linearGradient id="gai-b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#1D4ED8"/></linearGradient>
+    <linearGradient id="gai-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22C55E"/><stop offset="1" stop-color="#059669"/></linearGradient>
+    <linearGradient id="gai-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F43F5E"/><stop offset="1" stop-color="#DC2626"/></linearGradient>
+    <linearGradient id="gai-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#132E6B"/><stop offset="1" stop-color="#0B1F4D"/></linearGradient>
+    <linearGradient id="gai-w" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#059669"/></linearGradient>
+  </defs>
+    <rect width="64" height="64" rx="15" fill="#FFFFFF"/>
+    <rect x="1" y="1" width="62" height="62" rx="14" fill="none" stroke="#DBE4F5" stroke-opacity="1" stroke-width="2"/>
+    <g transform="translate(9.6 9.6) scale(.7)"><g fill="none" stroke-width="7" stroke-linecap="round">
+      <path d="M46.14 15.15 A22 22 0 0 0 12.95 21" stroke="url(#gai-b)"/>
+      <path d="M11.08 25.2 A22 22 0 0 0 28.94 53.79" stroke="url(#gai-g)"/>
+      <path d="M33.53 53.95 A22 22 0 0 0 54 32 L39 32" stroke="url(#gai-r)"/>
+    </g>
+    <circle cx="32" cy="32" r="4.6" fill="#0B1F4D"/>
+    <circle cx="51.6" cy="20.6" r="3.1" fill="url(#gai-g)"/></g></svg>

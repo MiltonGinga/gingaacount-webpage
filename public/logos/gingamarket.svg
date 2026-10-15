@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GingaMarket">
+  <defs>
+    <linearGradient id="gm-pino" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF9800"/>
+      <stop offset="1" stop-color="#E65100"/>
+    </linearGradient>
+    <clipPath id="gm-toldo"><path d="M14 22h36l-3 9H17z"/></clipPath>
+  </defs>
+  <!-- alfinete de localização -->
+  <path d="M32 3C19.3 3 9 13.1 9 25.6c0 16.2 19.6 33.3 21.6 35a2.2 2.2 0 0 0 2.8 0C35.4 58.9 55 41.8 55 25.6 55 13.1 44.7 3 32 3z" fill="url(#gm-pino)"/>
+  <!-- toldo de bancada às riscas -->
+  <g clip-path="url(#gm-toldo)">
+    <rect x="14" y="22" width="36" height="9" fill="#FFFFFF"/>
+    <rect x="14" y="22" width="6" height="9" fill="#FFC107"/>
+    <rect x="26" y="22" width="6" height="9" fill="#FFC107"/>
+    <rect x="38" y="22" width="6" height="9" fill="#FFC107"/>
+  </g>
+  <path d="M17 31c1.6 2.4 4.4 2.4 6 0 1.6 2.4 4.4 2.4 6 0 1.6 2.4 4.4 2.4 6 0 1.6 2.4 4.4 2.4 6 0 1.6 2.4 4.4 2.4 6 0" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- G -->
+  <path d="M32 34.5c-3.6 0-6.4 2.9-6.4 6.5s2.8 6.5 6.4 6.5c3 0 5.2-1.9 5.9-4.6h-6v-3.4h10.2c.1.5.1 1 .1 1.5 0 5.9-4.2 10-10.2 10-6 0-10.6-4.6-10.6-10s4.6-10 10.6-10c2.9 0 5.4 1 7.3 2.8l-2.6 2.6c-1.2-1.1-2.8-1.9-4.7-1.9z" fill="#121212"/>
+  <circle cx="32" cy="14" r="3.2" fill="#FFFFFF"/>
+</svg>

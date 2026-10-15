@@ -1,0 +1,24 @@
+{
+  "name": "gingaacount-webpage",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Página institucional da GingaAcount — sistemas, APIs e dados.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "brand": "node scripts/export-brand.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^12.0.0",
+    "lucide-react": "^1.57.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "sharp": "^0.34.0",
+    "vite": "^7.0.0"
+  }
+}
