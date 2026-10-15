@@ -45,8 +45,10 @@ export default function ContactForm({ company, systems, initialService = '', onD
       notify('success', 'Mensagem enviada! Respondemos em breve.')
       setForm({ name: '', email: '', phone: '', service: '', system: '', message: '' })
       onDone?.()
-    } catch {
-      notify('error', 'Não foi possível enviar agora. Tente pelo WhatsApp.')
+    } catch (err) {
+      // Ex.: formulário ainda não activado no FormSubmit — fica registado na consola para diagnóstico.
+      console.warn('[GingaAcount] envio do formulário falhou:', err.message)
+      notify('error', 'Não foi possível enviar agora. Tente pelo WhatsApp ou e-mail.')
     } finally {
       setSending(false)
     }

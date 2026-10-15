@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { animate, motion, useInView } from 'framer-motion'
-import { Activity, ArrowRight, CircleCheck, Lock, MapPin, Sparkles } from 'lucide-react'
+import { Activity, ArrowRight, CircleCheck, Lock, MapPin } from 'lucide-react'
 
 function Counter({ value, suffix }) {
   const ref = useRef(null)
@@ -32,7 +32,7 @@ export default function Hero({ data, onQuote }) {
       <div className="container hero-inner">
         <div className="hero-copy">
           <motion.span className="hero-badge" initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}>
-            <Sparkles size={14} /> Software à medida · {company.city}
+            Software à medida · {company.city}
           </motion.span>
           <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1, duration: 0.7 }}>
             Transformamos <span className="hl-blue">ideias</span> em <span className="hl-green">sistemas</span> que fazem o seu
