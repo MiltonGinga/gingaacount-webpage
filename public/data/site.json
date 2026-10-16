@@ -10,8 +10,8 @@
     "founded": 2026
   },
   "founder": {
-    "name": "Milton Domingos António Ginga",
-    "role": "Fundador · Engenheiro Informático",
+    "name": "M - Ginga",
+    "role": "Fundador · Engº Informático",
     "summary": "Programador backend e analista de dados. Desenho APIs seguras, sistemas de gestão completos e painéis de análise que transformam dados em decisões.",
     "skills": [
       { "name": "Spring Boot", "level": 92, "color": "green" },
